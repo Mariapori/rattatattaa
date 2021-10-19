@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 1058
+  Height = 233
+  Top = 579
+  Width = 423
+  Caption = 'Topiaksen delphi multipart form post'
+  ClientHeight = 233
+  ClientWidth = 423
+  LCLVersion = '2.0.12.0'
+  object FileNameEdit1: TFileNameEdit
+    Left = 16
+    Height = 23
+    Top = 8
+    Width = 392
+    FileName = 'Valitse tiedosto'
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 0
+    Text = 'Valitse tiedosto'
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 62
+    Width = 348
+    TabOrder = 1
+    Text = 'Kenelle'
+  end
+  object Edit2: TEdit
+    Left = 16
+    Height = 23
+    Top = 113
+    Width = 348
+    TabOrder = 2
+    Text = 'Aihe'
+  end
+  object Button1: TButton
+    Left = 266
+    Height = 49
+    Top = 167
+    Width = 95
+    Caption = 'Lähetä'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end
